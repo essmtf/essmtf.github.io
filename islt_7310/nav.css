@@ -1,0 +1,49 @@
+li{
+  list-style-type: none;
+}
+a{
+  text-decoration: none;
+}
+ul li {
+display: inline-block;  
+border: 3px solid magenta;
+width: 150px;
+list-style-type: none;
+padding: 15px 15px 15px 25px;
+margin-top: 0;  /*This keeps the navigation bar on the top of the screen by saying we want 0 distance from the top of the browser */
+margin-left: 10px;
+}
+ul{
+  margin: 0;
+  padding: 0;
+  display: flex;
+  border: 2px grey;
+}
+li{
+  list-style-type: none;  
+  margin: 0 2vw;
+}
+li{
+  list-style-type: none;  
+  margin: 0 2vw;
+    font-size: 4vh;
+}
+a{
+  text-decoration: none;
+  color: black;
+  padding: 2vw;
+  text-align: center;
+  font-family: bold monospace;
+}
+a:hover{
+  background-color: gainsboro;
+}
+nav{
+  width: 100vw;
+  background-color: papayawhip;
+    ul{
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+    
