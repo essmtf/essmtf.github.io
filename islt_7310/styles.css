@@ -3,5 +3,5 @@ Body {
     background-color: #fff0e6;
     color: #6e2c00 
 }
-
-   
+main p:first-child::first-letter{font-size: 250%;}
+main p:first-child::first-line{text-indent: 100px;}
